@@ -22,3 +22,16 @@ The system utilizes a multi-factor logic engine to isolate waste:
 
 ## Audit Performance Output
 ![FinOps Audit Summary](finops_output.png)
+
+## Executive Dashboard
+The system includes an interactive Streamlit dashboard for real-time FinOps monitoring. It provides instant visibility into:
+* **KPIs:** Total cost leakage and potential annual savings.
+* **Visualization:** Comparative bar charts identifying highest-impact zombie assets.
+
+![FinOps Dashboard View](dashboard_view.png)
+
+## How to Run the Dashboard
+1. Ensure your MongoDB instance is active.
+2. Execute the dashboard:
+   ```bash
+   python3 -m streamlit run finops_audit/dashboard.py
