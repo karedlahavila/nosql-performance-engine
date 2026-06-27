@@ -32,9 +32,10 @@ class AccessTracker:
             "start_date": datetime.datetime.now(),
             "denial_reason": None
         }
-        self.db_helper.insert_record(self.collection, record)
+        # Using insert_many_records by passing the record inside a list
+        self.db_helper.insert_many_records(self.collection, [record])
         return record
-
+        
 # --- Demonstration Logic ---
 if __name__ == "__main__":
     tracker = AccessTracker()
