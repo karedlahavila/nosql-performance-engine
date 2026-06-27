@@ -1,13 +1,4 @@
-"""
-Intelligent Claims Auditor (Day 2 & Day 3 - Upgraded Edition)
------------------------------------------------------------
-This script implements our upgraded Two-Fold Clinical Audit Engine:
-1. Clinical NLP Text Parser: Scans raw text for high/low severity keywords.
-2. Machine-Logged Time Cross-Verification: Extracts the actual, independent 
-   duration spent in the treatment room.
-3. Two-Fold Predictive Model: Calculates a Pre-Payment Claim Risk Score (0-100%)
-   by penalizing "Chart Padding" (high-severity text paired with low-duration room times).
-"""
+
 
 import sys
 import math

@@ -1,5 +1,8 @@
-from engine import DBConnector
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+from engine import DBConnector
 def run_ma_analysis():
     db = DBConnector()
     if not db.connect(): return
