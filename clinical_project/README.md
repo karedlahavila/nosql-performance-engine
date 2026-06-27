@@ -27,3 +27,19 @@ The system employs a **Two-Fold Predictive Model** to evaluate claims:
 3. Run the intelligent auditor: `python3 clinical_analyzer.py`
 
 ![Clinical Audit Report](clinical_output.png)
+
+## Clinical Revenue Integrity & Adjudication Dashboard
+This dashboard visualizes the performance of our Two-Fold Predictive Model, which flags "upcoding" and "template padding" in insurance claims. 
+
+### Key Features
+* **Risk Score Visualization:** Scatter plots mapping claim duration against complexity.
+* **Financial Impact:** Real-time calculation of leakage prevented by auto-diverting suspicious claims.
+* **Adjudication Intelligence:** Clear separation between "Auto-Approved" and "Human Review" status.
+
+![Clinical Audit Dashboard](Clinical_audit.png)
+
+### How to Run the Dashboard
+1. Ensure your MongoDB service is active.
+2. Navigate to the `clinical_project` directory:
+   ```bash
+   cd clinical_project
