@@ -16,3 +16,6 @@ The system integrates an automated **Denial Reason Extraction** engine that pars
 2. From the project root, execute the optimizer script:
    ```bash
    python3 clinical-access-optimizer/clinical-access-optimizer.py
+
+## KPI Performance Output
+![Onboarding KPI Summary](onboarding_output.png)
