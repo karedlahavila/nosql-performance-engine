@@ -1,0 +1,48 @@
+Last login: Fri Jun 19 16:53:36 on ttys000
+havilakaredla@Havilas-MacBook-Air ~ % nano my_new_script.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  UW PICO 5.09                 File: my_new_script.py                 Modified  
+
+            print(f"⚠️ FLAG: Asset {asset['resource_metadata']['instance_id']} $
+
+        print("=======================================================")
+        print(f"🎯 FINOPS AUDIT SUMMARY:")
+        print(f"• Total Zombie Assets Identified: {len(results)}")
+        print(f"• Daily Cost Leakage Identified : ${total_waste:,.2f}")
+        print(f"• Annualized Potential Savings  : ${total_waste * 365:,.2f}")
+        print("=======================================================")
+
+        self.client.close()
+
+if __name__ == "__main__":
+    optimizer = FinOpsOptimizer()
+    optimizer.run_multi_factor_analysis()
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
