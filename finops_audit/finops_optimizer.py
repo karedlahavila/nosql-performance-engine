@@ -1,5 +1,5 @@
 """
-Cloud FinOps Multi-Factor Optimizer
+Cloud FinOps Multi-Factor Optimizer (Day 4)
 -------------------------------------------
 This script cross-references Metadata (Production Tag) with 
 Actual Telemetry (CPU Usage) to identify 'Zombie' cloud waste.
@@ -16,7 +16,7 @@ def inject_test_anomalies(db_helper):
         "operational_metrics": {"cpu_utilization_pct": 1.2},
         "financial_layer": {"daily_cost_usd": 650.0}
     }
-    db_helper.insert_record("cloud_assets", zombie)
+    db_helper.insert_many_records("cloud_assets", [zombie])
     print("✅ Injected 1 Zombie asset (High Cost/Low CPU) for audit testing.")
 
 def run_multi_factor_analysis():
