@@ -17,3 +17,18 @@ The tool evaluates customer health based on a proprietary **Risk Score** (0-100 
 3. Run the analyzer: `python3 ma_analyzer.py`
 
 ![M&A Attrition Report](ma_output.png)
+
+## M&A Revenue Attrition Dashboard
+This module visualizes financial risk during the due diligence process. It flags customers with high support-log risk scores and calculates the total Monthly Recurring Revenue (MRR) at risk.
+
+### Key Features
+* **Risk/Revenue Mapping:** Visualizes the correlation between high-risk support logs and MRR.
+* **Financial Exposure Metrics:** Instantly calculates the "Total Revenue at Risk."
+* **Alerting:** Provides a direct feed of high-risk customers for deal team review.
+
+![M&A Dashboard](ma_dashboard.png)
+
+### How to Run
+From the project root:
+```bash
+PYTHONPATH=. python3 -m streamlit run ma_project/ma_dashboard.py
