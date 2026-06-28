@@ -16,3 +16,13 @@ The script applies a logic gate to categorize campaigns into either "Optimized" 
 The analyzer generates a performance report highlighting ROAS (Return on Ad Spend) anomalies.
 
 ![Retail Media Analysis](retail_output.png)
+
+## Retail Media Optimizer Dashboard
+Calculates the Return on Ad Spend (ROAS) by correlating digital campaign spend with in-store purchase data. This tool identifies which marketing channels are driving actual retail revenue.
+
+### Key Features
+* **ROAS Calculation:** Scales digital ad spend against checkout lift.
+* **Performance Matrix:** Automatically flags underperforming campaigns (ROAS < 2.0).
+* **Channel Analysis:** Aggregates performance by channel to optimize marketing budget allocation.
+
+![Retail Media Dashboard](retail_dashboard.png)
